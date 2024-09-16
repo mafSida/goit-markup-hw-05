@@ -521,6 +521,8 @@ img {
   margin-bottom: 16px;
 }
 .footer-subscribe-form {
+  display: flex;
+  gap: 24px;
 }
 
 .footer-subscribe-input {
