@@ -456,15 +456,22 @@
           </ul>
         </div>
         <div class="footer-form-wrap">
-          <form class="footer-form">
-            <label for="subscription-email">Subscribe</label>
+          <p class="footer-subscribe-text">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <label for="subscription-email"></label>
             <input
+              class="footer-subscribe-input"
               type="email"
               id="subscription-email"
               name="subscription-email"
               placeholder="E-mail"
             />
-            <button type="submit">Subscribe</button>
+            <button type="submit" class="footer-subscribe-btn">
+              Subscribe
+              <svg class="subscribe-btn-icon">
+                <use></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
